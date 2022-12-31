@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lista UF</title>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+    </head>
+
+    <body>        
+        <h2>Meus Estados</h2>
+
+        <fieldset>
+                <legend><b>Selecione os estados: </b></legend><br>
+
+
+        <input type="checkbox" class="estados" id="Acre" name="estado" value="1. ACRE">
+        <label for="Acre">Acre</label><br>
+
+        <input type="checkbox" class="estados" id="Goias" name="estado" value="4. Goiás">
+        <label for="Goias">Goiás</label><br>
+
+        <input type="checkbox" class="estados" id="Maranhao" name="estado" value="5. MARANHÃO">
+        <label for="Maranhao">Maranhão</label><br>
+
+        <input type="checkbox" class="estados" id="Df" name="estado" value="3. DISTRITO FEDERAL">
+        <label for="Df">Distrito Federal</label><br>
+
+        <input type="checkbox" class="estados" id="Rj" name="estado" value="7. RIO DE JANEIRO">
+        <label for="Rj">Rio de Janeiro</label><br> 
+
+        <input type="checkbox" class="estados" id="Sp" name="estado" value="8. SÃO PAULO">
+        <label for="Sp">São Paulo</label><br> 
+
+        <input type="checkbox" class="estados" id="Bahia" name="estado" value="2. BAHIA">
+        <label for="Bahia">Bahia</label><br> 
+
+        <input type="checkbox" class="estados" id="Para" name="estado" value="6. PARÁ">
+        <label for="Para">Pará</label><br> 
+        </fieldset>
+
+        <p>Obs: Os estados selecionados serão montados em uma nova lista!</p><br> 
+        <button id="montar-lista" class="btnMontarLista">Montar Lista</button>    
+
+    <ol id="lista-montada" class="invisivel">
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+
+       <button id="limpar-lista" class="invisivel">Limpar lista</button>
+
+
+    <script src="js/filtro.js"></script>
+
+    </body>
+</html>
